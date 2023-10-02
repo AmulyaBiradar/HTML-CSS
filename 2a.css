@@ -1,0 +1,13 @@
+*{
+    font-family: sans-serif;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+    border: none;
+  }

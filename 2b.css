@@ -1,0 +1,14 @@
+*{
+    font-family: sans-serif;
+}
+
+button{
+    
+    position: relative;
+    padding: 10px 30px;
+    /* top: 50%; */
+    background-color: rgb(255,216,20);
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+  }

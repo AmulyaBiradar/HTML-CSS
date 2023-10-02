@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            position: absolute;
+            width: 100%;
+            max-width: 400px;
+            /* min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; */
+        }
+
+        /* .parent :: before{
+           content: ''; 
+           background-image: url(Images/clo.png);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           position: absolute;
+           top: 0;
+           left: 0;
+           bottom: 0;
+           right: 0;
+           opacity: 0.35;
+        } */
+
+        #cloth{
+            position: relative;
+        }
+
+        
+
+        .button{
+            position: absolute;
+            top: 80%;
+            left: 60%;
+            transform: translate(-50% -50%);
+            background-color: #fff;
+            color: black;
+            font-size: 16px;
+            padding: 16px 30px;
+            border-color: black;
+            cursor: pointer;
+            /* font-size: 80px;
+            font-family: sans-serif;
+            text-align: center;
+            position: relative; */
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <img style="width: 200px; height: 200px; padding: 10px 20px; opacity: 0.35; " id="cloth" src="Images/clo.png" alt="image"  >
+    <button type="button">Add to Cart</button>
+</div>
+</body>
+</html>
+
+<!-- linear-gradient:(to bottom,rgba(255,255,255,0.9) 50%,rgba(0,0,0,0.1) 50%) ; -->
